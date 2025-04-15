@@ -214,8 +214,6 @@ Flatpak is a cross-distribution package manager often used with desktop apps.
 
 ---
 
----
-
 ## ✅ Best Practices for APT
 
 - Always run `sudo apt update` before installing new software
@@ -223,7 +221,6 @@ Flatpak is a cross-distribution package manager often used with desktop apps.
 - Use `purge` instead of `remove` when clearing old configs
 - Run `autoremove` and `clean` monthly to free up space
 
----
 ---
 
 ## ✅ Best Practices for Snap
