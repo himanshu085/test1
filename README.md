@@ -243,3 +243,16 @@ Flatpak is a cross-distribution package manager often used with desktop apps.
 | Name              | Email Address                                   |
 |-------------------|--------------------------------------------------|
 | Himanshu Parashar | himanshu.parashar.snaatak@mygurukulam.co        |
+
+---
+
+## 🔗 References
+
+- [APT - Ubuntu Manpage](https://manpages.ubuntu.com/manpages/jammy/en/man8/apt.8.html)
+- [dpkg - Debian Package Manager](https://manpages.ubuntu.com/manpages/jammy/en/man1/dpkg.1.html)
+- [Snapcraft Documentation](https://snapcraft.io/docs)
+- [Flatpak Documentation](https://docs.flatpak.org/en/latest/)
+- [Debian Wiki: APT](https://wiki.debian.org/Teams/Apt)
+- [Flatpak on Flathub](https://flathub.org/)
+- [Snap Package List](https://snapcraft.io/store)
+  
