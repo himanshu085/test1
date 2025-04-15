@@ -1,5 +1,4 @@
-![Ubuntu Linux](https://linuxiac.b-cdn.net/wp-content/uploads/2020/06/ubuntu-linux.jpg)
-
+![Ubuntu Logo](https://companieslogo.com/img/orig/UBUNTU_BIG-6b3a4c8e.png)
 
 # 🖥️ Ubuntu OS - Software Management SOP
 
