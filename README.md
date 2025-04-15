@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://assets.ubuntu.com/v1/29985a98-ubuntu-logo32.png" alt="Ubuntu Logo" width="600"/>
+  <img src="https://assets.ubuntu.com/v1/29985a98-ubuntu-logo32.png" alt="Ubuntu Logo" width="200"/>
 </p>
 
 # 🖥️ Ubuntu OS - Software Management SOP
