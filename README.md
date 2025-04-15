@@ -32,21 +32,21 @@ This document outlines the standard procedure for managing software on Ubuntu OS
 
 ### 🟢 Update Package List
 ```bash
-sudo apt update
+**sudo apt update**
 ```
 
 ---
 
 ### 🟡 Upgrade Installed Packages
 ```bash
-sudo apt upgrade
+**sudo apt upgrade**
 ```
 
 ---
 
 ### 🔴 Full Upgrade (with dependency resolution)
 ```bash
-sudo apt full-upgrade
+**sudo apt full-upgrade**
 ```
 
 ---
@@ -55,12 +55,12 @@ sudo apt full-upgrade
 
 ### ✅ Basic Installation
 ```bash
-sudo apt install <package-name>
+**sudo apt install <package-name>**
 ```
 
 ### 🚀 Auto-confirm Installation
 ```bash
-sudo apt install -y <package-name>
+**sudo apt install -y <package-name>**
 ```
 
 ---
@@ -69,17 +69,17 @@ sudo apt install -y <package-name>
 
 ### 🗑️ Remove (keep config)
 ```bash
-sudo apt remove <package-name>
+**sudo apt remove <package-name>**
 ```
 
 ### 🔥 Purge (remove config too)
 ```bash
-sudo apt purge <package-name>
+**sudo apt purge <package-name>**
 ```
 
 ### 🧹 Auto-remove Unused Dependencies
 ```bash
-sudo apt autoremove
+**sudo apt autoremove**
 ```
 
 ---
@@ -88,12 +88,12 @@ sudo apt autoremove
 
 ### 🧽 Remove downloaded .deb files
 ```bash
-sudo apt clean
+**sudo apt clean**
 ```
 
 ### 🗃️ Remove outdated package lists
 ```bash
-sudo apt autoclean
+**sudo apt autoclean**
 ```
 
 ---
@@ -102,12 +102,12 @@ sudo apt autoclean
 
 ### 🔎 Search for Packages
 ```bash
-apt search <package-name>
+**apt search <package-name>**
 ```
 
 ### 📦 Show Package Info
 ```bash
-apt show <package-name>
+**apt show <package-name>**
 ```
 
 ---
@@ -116,24 +116,13 @@ apt show <package-name>
 
 ### 📃 All Installed Packages
 ```bash
-dpkg -l
+**dpkg -l**
 ```
 
 ### 🔍 Filter Installed Package
 ```bash
-dpkg -l | grep <package-name>
+**dpkg -l | grep <package-name>**
 ```
-
----
-
-## ✅ Best Practices
-
-- Always run `sudo apt update` before installing new software
-- Schedule `apt upgrade` or `full-upgrade` periodically
-- Use `purge` instead of `remove` when clearing old configs
-- Run `autoremove` and `clean` monthly to free up space
-
----
 
 ## ➕ Install Software using Snap
 
@@ -141,38 +130,38 @@ Snap is a universal package manager developed by Canonical.
 
 ### 🔧 Install a Snap Package
 ```bash
-sudo snap install <package-name>
+**sudo snap install <package-name>**
 ```
 
 **Example:**
 ```bash
-sudo snap install postman
+**sudo snap install postman**
 ```
 
 ### 📝 Install with Classic Confinement
 ```bash
-sudo snap install <package-name> --classic
+**sudo snap install <package-name> --classic**
 ```
 
 ---
 
 ## 🔄 Update Snap Packages
 ```bash
-sudo snap refresh
+**sudo snap refresh**
 ```
 
 ---
 
 ## ➖ Remove Snap Packages
 ```bash
-sudo snap remove <package-name>
+**sudo snap remove <package-name>**
 ```
 
 ---
 
 ## 📋 List Installed Snaps
 ```bash
-snap list
+**snap list**
 ```
 
 ---
@@ -183,47 +172,74 @@ Flatpak is a cross-distribution package manager often used with desktop apps.
 
 ### 🔧 Install Flatpak Support
 ```bash
-sudo apt install flatpak
+**sudo apt install flatpak**
 ```
 
 ```bash
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+**flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo**
 ```
 
 ---
 
 ### 🔧 Install a Flatpak App
 ```bash
-flatpak install flathub <package-name>
+**flatpak install flathub <package-name>**
 ```
 
 **Example:**
 ```bash
-flatpak install flathub com.spotify.Client
+**flatpak install flathub com.spotify.Client**
 ```
 
 ---
 
 ### 🔄 Update Flatpak Apps
 ```bash
-flatpak update
+**flatpak update**
 ```
 
 ---
 
 ### ➖ Remove Flatpak Apps
 ```bash
-flatpak uninstall <package-name>
+**flatpak uninstall <package-name>**
 ```
 
 ---
 
 ### 📋 List Installed Flatpak Apps
 ```bash
-flatpak list
+**flatpak list**
 ```
 
 ---
+
+---
+
+## ✅ Best Practices for APT
+
+- Always run `sudo apt update` before installing new software
+- Schedule `apt upgrade` or `full-upgrade` periodically
+- Use `purge` instead of `remove` when clearing old configs
+- Run `autoremove` and `clean` monthly to free up space
+
+---
+---
+
+## ✅ Best Practices for Snap
+
+- Use `--classic` flag only for trusted apps needing full system access
+- Run `sudo snap refresh` weekly to ensure apps are updated
+- Use `snap list` to audit installed applications periodically
+
+---
+
+## ✅ Best Practices for Flatpak
+
+- Always enable Flathub repository for a wide range of apps
+- Regularly run `flatpak update` to keep apps secure
+- Uninstall apps you no longer use with `flatpak uninstall`
+
 
 ## 📞 Contact Information
 
