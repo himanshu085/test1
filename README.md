@@ -1,4 +1,4 @@
-![Ubuntu Logo](https://companieslogo.com/img/orig/UBUNTU_BIG-6b3a4c8e.png)
+<img src="https://assets.ubuntu.com/v1/29985a98-ubuntu-logo32.png" alt="Ubuntu Logo" width="120"/>
 
 # 🖥️ Ubuntu OS - Software Management SOP
 
