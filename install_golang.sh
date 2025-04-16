@@ -6,18 +6,35 @@
 # Usage: ./install_golang.sh <version>
 # Example: ./install_golang.sh 1.21.5
 # ✅ Examples of Supported Versions (as of April 2025):
-#You can install versions like:
+# You can install versions like:
 #    1.22.1
 #    1.21.5
 #    1.20.10
 #    1.19.13
 #    1.18.10
 #    1.17.13
-#   ... all the way back to 1.1, technically.
+#    ... all the way back to 1.1, technically.
 
 set -e
 
 GO_DIR="/usr/local/go"
+
+# Function to check if wget is installed
+check_and_install_wget() {
+  if ! command -v wget &>/dev/null; then
+    echo "❌ wget not found, installing..."
+    if [ -f /etc/redhat-release ]; then
+      # For RHEL/CentOS/Fedora/AlmaLinux
+      sudo yum install wget -y
+    elif [ -f /etc/debian_version ]; then
+      # For Debian/Ubuntu
+      sudo apt update && sudo apt install wget -y
+    else
+      echo "❌ Unsupported OS. Please install wget manually."
+      exit 1
+    fi
+  fi
+}
 
 # Function to get the latest stable Go version
 get_latest_go_version() {
@@ -34,7 +51,7 @@ else
 fi
 
 GO_ARCHIVE="go${GO_VERSION}.linux-amd64.tar.gz"
-DOWNLOAD_URL="https://go.dev/dl/${GO_ARCHIVE}"
+DOWNLOAD_URL="https://dl.google.com/go/${GO_ARCHIVE}"
 
 # Function to check if Go is installed
 check_go_installed() {
@@ -62,6 +79,7 @@ install_go() {
   echo "✅ Go $GO_VERSION installed at /usr/local/go"
 }
 
+# Function to configure Go environment
 configure_env() {
   echo "⚙️  Configuring Go environment..."
   GO_ENV_LINE='export PATH=$PATH:/usr/local/go/bin'
