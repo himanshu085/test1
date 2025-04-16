@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://img.icons8.com/clouds/500/server-migration.png" alt="Migration Logo" width="200"/>
+  <img src="https://your-host.com/migration-logo.png" alt="Migration Logo" width="200"/>
 </p>
 
 # 🔄 Migration SOP - Step-by-Step Guide (Old ➡️ New Server)
