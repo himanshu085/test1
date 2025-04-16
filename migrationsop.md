@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="https://your-host.com/migration-logo.png" alt="Migration Logo" width="200"/>
+  <img src="https://cdn-icons-png.flaticon.com/512/2857/2857393.png" alt="Migration Logo" width="150"/>
 </p>
+
 
 # 🔄 Migration SOP - Step-by-Step Guide (Old ➡️ New Server)
 
