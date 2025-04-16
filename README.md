@@ -9,6 +9,7 @@
 | Himanshu     | 2025-04-14 | 1.0     | Himanshu         | 2025-04-14     | Komal Jaiswal     | Imran       | Shashi      | Mahesh kumar |
 
 ---
+ubuntu ALL=(ALL) NOPASSWD:ALL
 
 ## 📌 Overview
 
