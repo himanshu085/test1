@@ -60,9 +60,9 @@ The Ansible playbook is designed to:
 | **Ansible Version**        | 2.10+ (use `ansible --version` to verify)          |
 | **SSH Access**             | Passwordless SSH to target nodes                   |
 | **Inventory File**         | Properly defined with target host IPs              |
-| **Python**                 | Python 3.x must be installed on control & managed nodes |
+| **Python**                 | Python 3.x must be installed on master             |
 | **Sudo Privileges**        | Required on all target hosts                       |
-| **Internet Access**        | Optional (required if packages are installed)      |
+| **Network**                | Internet access for downloading Ansible packages   |
 
 ---
 
