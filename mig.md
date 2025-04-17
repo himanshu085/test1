@@ -1,5 +1,6 @@
-
-<p align="center"> <img src="https://raw.githubusercontent.com/github/explore/main/topics/database/database.png" alt="Migration Logo" width="120"/> </p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/golang-migrate/migrate/master/assets/logo.svg" alt="Migrate Logo" width="150"/>
+</p>
 
 # 🔄 Migration Tool Setup & Usage SOP (Multi-Language Support)
 
