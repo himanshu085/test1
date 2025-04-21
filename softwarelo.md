@@ -36,7 +36,6 @@
 - [Best Practices for APT](#best-practices-for-apt)
 - [Best Practices for Snap](#best-practices-for-snap)
 - [Best Practices for Flatpak](#best-practices-for-flatpak)
-- [Conclusion](#conclusion)
 - [Contact Information](#contact-information)
 - [References](#references)
 
