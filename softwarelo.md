@@ -307,10 +307,13 @@ Consistent software management leads to better system reliability, efficiency, a
 
 ## References
 
-- [APT - Ubuntu Manpage](https://manpages.ubuntu.com/manpages/jammy/en/man8/apt.8.html)
-- [dpkg - Debian Package Manager](https://manpages.ubuntu.com/manpages/jammy/en/man1/dpkg.1.html)
-- [Snapcraft Documentation](https://snapcraft.io/docs)
-- [Flatpak Documentation](https://docs.flatpak.org/en/latest/)
-- [Debian Wiki: APT](https://wiki.debian.org/Teams/Apt)
-- [Flatpak on Flathub](https://flathub.org/)
-- [Snap Package List](https://snapcraft.io/store)
+| Topic                     | Link                                                                 | Description                                                     |
+|---------------------------|----------------------------------------------------------------------|-----------------------------------------------------------------|
+| APT - Ubuntu Manpage      | [APT - Ubuntu Manpage](https://manpages.ubuntu.com/manpages/jammy/en/man8/apt.8.html) | Official manual for the `apt` package manager on Ubuntu.        |
+| dpkg - Debian Package Manager | [dpkg - Debian Package Manager](https://manpages.ubuntu.com/manpages/jammy/en/man1/dpkg.1.html) | Documentation for the `dpkg` tool used for package management. |
+| Snapcraft Documentation   | [Snapcraft Documentation](https://snapcraft.io/docs)                | Official guide for managing Snap packages on Ubuntu.            |
+| Flatpak Documentation     | [Flatpak Documentation](https://docs.flatpak.org/en/latest/)        | Guide for using Flatpak to manage applications across Linux distros. |
+| Debian Wiki: APT          | [Debian Wiki: APT](https://wiki.debian.org/Teams/Apt)               | Wiki page with extensive information about `APT` and its tools.|
+| Flatpak on Flathub        | [Flatpak on Flathub](https://flathub.org/)                          | The central hub for Flatpak applications.                       |
+| Snap Package List         | [Snap Package List](https://snapcraft.io/store)                     | A list of available Snap packages for installation.             |
+
