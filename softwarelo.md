@@ -5,9 +5,13 @@
 
 # Ubuntu OS - Software Management SOP
 
-| Author       | Created on | Version | Last updated by | Last edited on | Internal Reviewer | Reviewer L0 | Reviewer L1 | Reviewer L2 |
-|--------------|------------|---------|------------------|----------------|-------------------|-------------|-------------|-------------|
-| Himanshu     | 2025-04-14 | 1.0     | Himanshu         | 2025-04-14     | Komal Jaiswal     | Imran       | Shashi      | Mahesh kumar |
+| **Author** | **Created on** | **Version** | **Last updated by** | **Last Edited On** | **Level**          | **Reviewer**    |
+|------------|----------------|-------------|---------------------|--------------------|--------------------|-----------------|
+| Himanshu   | 2025-04-14     | 1.0         | Himanshu            | 2025-04-14         | Internal Reviewer  | Komal Jaiswal   |
+| Himanshu   | 2025-04-14     | 1.1         | Himanshu            | 2025-04-21         | L0                 | Imran           |
+| Himanshu   | 2025-04-14     | 1.1         | Himanshu            | 2025-04-14         | L1                 | Shashi          |
+| Himanshu   | 2025-04-14     | 1.1         | Himanshu            | 2025-04-14         | L2                 | Mahesh Kumar    |
+
 
 ---
 
