@@ -229,7 +229,7 @@ ansible-playbook -i inventory_aws.yml nginx-playbook.yml
 
 | Topic                      | Link                                                                 | Description                                                                      |
 |----------------------------|----------------------------------------------------------------------|----------------------------------------------------------------------------------|
-| Ansible Documentation      | [Ansible Documentation](https://docs.ansible.com/)                   | Official documentation for Ansible usage and modules.                           |
-| Ansible Best Practices     | [Ansible Best Practices](https://docs.ansible.com/ansible/latest/user_guide/playbooks_best_practices.html) | Guidelines to write clean and efficient playbooks.                              |
-| Ansible Galaxy Roles       | [Ansible Galaxy Roles](https://galaxy.ansible.com/)                  | Public repository of community-contributed roles.                               |
-| YAML Basics                | [YAML Basics](https://yaml.org/)                                     | Official site explaining YAML syntax and usage.                                 |
+| Ansible Documentation      | https://docs.ansible.com                   | Official documentation for Ansible usage and modules.                           |
+| Ansible Best Practices     | https://docs.ansible.com/ansible/latest/user_guide/playbooks_best_practices.html | Guidelines to write clean and efficient playbooks.                              |
+| Ansible Galaxy Roles       | https://galaxy.ansible.com                  | Public repository of community-contributed roles.                               |
+| YAML Basics                | https://yaml.org                                     | Official site explaining YAML syntax and usage.                                 |
